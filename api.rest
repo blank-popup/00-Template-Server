@@ -1,0 +1,12 @@
+@BaseURL = http://localhost:8080
+
+
+
+### Try Init
+POST {{BaseURL}}/try/init HTTP/1.1
+content-Type: application/json
+
+{
+    "tryNumber": 20000,
+    "tryString": "0000"
+}
